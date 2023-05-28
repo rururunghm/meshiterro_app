@@ -7,8 +7,9 @@
   </div>
 
   <div class="field">
-    <%= f.label :password %><br />
+    <p>ユーザー名と<br>パスワードを入力してください。</p>
     <%= f.password_field :password, autocomplete: "current-password" %>
+  
   </div>
 
   <% if devise_mapping.rememberable? %>
